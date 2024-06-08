@@ -122,8 +122,8 @@
               </svg>
             </i>
           </button>
-          <div id="navDialog" class="hidden md:hidden fixed inset-0">
-            <div id="nav-bar" class="flex items-center justify-between max-w-[85rem] w-full mx-auto px-9 py-5 md:flex md:items-center md:justify-between">
+          <div id="navDialog" class=" md:hidden fixed inset-0">
+            <div id="nav-bar" class="flex items-center justify-between max-w-[85rem] w-full mx-auto px-9 py-5 md:flex md:items-center md:justify-between rounded-2xl" style="background-color: rgba(47, 79, 79, 0.317);">
               <div id="toggle-brand">
                 <a
                   class="inline-flex items-center gap-x-2 text-xl font-semibold text-black dark:text-white"
@@ -141,26 +141,25 @@
               <i
                 class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10"
               >
-                <svg
-                  class="hs-collapse-open:hidden flex-shrink-0 size-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <line x1="3" x2="21" y1="6" y2="6" />
-                  <line x1="3" x2="21" y1="12" y2="12" />
-                  <line x1="3" x2="21" y1="18" y2="18" />
-                </svg>
+              <svg
+              class="hs-collapse-open:hidden flex-shrink-0 size-4"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M18 6 6 18" />
+              <path d="m6 6 12 12" />
+            </svg>
               </i>
             </button>
             </div>
-            <div id="toggle-nav-menu" class="flex flex-wrap md:justify-start w-full rounded-2xl shadow-lg transition-all duration-300 p-5 dark:border-neutral-700 dark:hover:border-transparent dark:hover:shadow-black/40 bg-gray-300 dark:bg-gray-600">
+            <div id="toggle-nav-menu" class="flex flex-wrap md:justify-start w-full rounded-2xl shadow-lg transition-all duration-300 p-5 dark:border-neutral-700 dark:hover:border-transparent dark:hover:shadow-black/40 bg-gray-300 dark:bg-gray-600" style="background-color: rgba(4, 15, 19, 0.769);">
               <!-- search bar -->
               <form >
                 <div class="relative z-10 flex space-x-3 p-3  border rounded-lg">
@@ -174,7 +173,7 @@
                       type="email"
                       name="hs-search-article-1"
                       id="hs-search-article-1"
-                      class="bg-transparent text-black dark:text-white py-2.5 px-3 block w-full border-transparent rounded-lg focus:border-blue-500 focus:ring-blue-500"
+                      class="bg-transparent text-black dark:text-white py-2.5 px-3 block w-full border-transparent rounded-lg focus:border-blue-500 focus:ring-blue-500" style="background-color: rgba(60, 90, 120, 0.388) ;"
                       placeholder="Search products"
                     />
                   </div>
@@ -205,7 +204,7 @@
               <!-- search bar -->
               <div id="nav-option" class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
                 <a
-                class="font-medium hover:text-yellow-400 hover:text-lg dark:text-gray-400 dark:hover:text-yellow-400"
+                class="font-medium hover:text-yellow-400 hover:text-lg dark:text-gray-400 dark:hover:text-yellow-400 "
                 href="#shopping"
                 >Shopping</a
               >
